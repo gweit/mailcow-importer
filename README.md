@@ -1,8 +1,8 @@
-## mailcow importer bash script for migrations from older versions.
+## mailcow importer bash script for migrations from older versions.  
 
 
  
-When coming from older versions of mailcow which are problematic to update via update.sh you can use this workaround to import all emails to a new mailcos-installation:
+When coming from older versions of mailcow which are problematic to update via update.sh you can use this workaround to import all emails to a new mailcos-installation:  
 
 
  
