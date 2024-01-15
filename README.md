@@ -49,3 +49,6 @@ for FULL_USER in $USERS; do
 done
 ```
 
+## Update: 15.01.2024
+
+- added script to create domains and mailboxes from maildir: create-domain-mailbox.sh
