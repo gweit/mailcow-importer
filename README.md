@@ -13,7 +13,7 @@ When coming from older versions of mailcow which are problematic to update via u
 rsync -aHhP --numeric-ids --delete /var/lib/docker/volumes/mailcowdockerized_vmail-vol-1/_data/ root@host:/var/lib/docker/volumes/mailcowdockerized_vmail-vol-1/_data
 ```
 &nbsp;
-- use the importer.sh script to import all emails to the corresponding email-address directly in the container:
+- use the importer.sh script to import all emails to the corresponding email-address directly in the dovecot-container:
 
 &nbsp;
 ```bash
@@ -55,6 +55,7 @@ done
 
 - added script to create domains and mailboxes from maildir: create-domain-mailbox.sh
 &nbsp;
+Please pay attention to change the variables to suit your environment.
 &nbsp;
 
 ```bash
