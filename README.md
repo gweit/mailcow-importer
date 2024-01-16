@@ -5,7 +5,7 @@ When coming from older versions of mailcow which are problematic to update via u
 &nbsp;
 
 - install the newest mailcow version: https://docs.mailcow.email/de/i_u_m/i_u_m_install/
-- recreate all domains and users manualy (todo: create script to do this from maildir via API)
+- recreate all domains and users manualy or via create-domain-mailbox.sh
 - rsync only the maildir from old installation:
 
 &nbsp;
